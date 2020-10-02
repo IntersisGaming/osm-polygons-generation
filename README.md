@@ -1,11 +1,11 @@
-osm-polygons-generation
+OSM POLYGONS GENERATOR
 =======================
 
-Website to generate polygons for recursive relations in OpenStreetMap
+The Best Website To Generate Polygons For Recursive Relations In OpenStreetMap
 
 Using this tool, you can get latest polygons from OSM, optionally simplified using PostGIS.
 
-## Features
+## FEATURES
 * Update geometry based on the latest OSM data
 * Preserve multiple geometries between sesssion
 * Simplify each shape using PostGIS ``ST_Buffer(ST_SimplifyPreserveTopology(ST_Buffer(ST_SnapToGrid(st_buffer(geom, %s), %s), 0), %s), 0))``
@@ -15,6 +15,6 @@ Using this tool, you can get latest polygons from OSM, optionally simplified usi
  * Export to WKT, poly and GeoJSON
 * More
 
-## Live instances
+## LIVE INSTANCES
 
 * http://polygons.openstreetmap.fr/
